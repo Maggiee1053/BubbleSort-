@@ -1,7 +1,7 @@
 import java.util.*;
 class BubbleSort{
-public static void printarray(int arr[]){
-System.out.println("sorted list is");
+public static void sortedarray(int arr[]){
+System.out.println("sorted array is");
 for( int i=0; i<arr.length; i++ ){
 System.out.println(arr[i]+" ");
 }
@@ -22,7 +22,7 @@ arr[j+1] = temp ;
 }
 }
 }
-printarray(arr);
+sortedarray(arr);
 }
 }
 
